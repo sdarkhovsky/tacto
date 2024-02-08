@@ -22,6 +22,13 @@ NOTE: the simulator is not meant to provide a physically accurate dynamics of th
 
 ## Installation
 
+Use conda to install the compatible Python version (< 3.9) and isolate the tacto environment from the rest of operating system
+
+```bash
+conda create -n tacto python=3.8
+conda activate tacto
+```
+
 The preferred way of installation is through PyPi:
 
 ```bash
